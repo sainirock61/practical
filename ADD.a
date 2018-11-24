@@ -1,0 +1,6 @@
+INP
+STA a
+INP
+ADD a
+OUT
+a: .data 1 03
