@@ -1,8 +1,11 @@
 IINP 
-STA A
+;store in A
+STA A    
 INP
+;store in B
 STA B
 L1: LDA B
+;add the numbers
 ADD SUM
 STA SUM
 LDA A
